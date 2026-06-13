@@ -1,6 +1,6 @@
 # DIU Examen/Trabajo Final
 
-Autora: Lola Lorite Díaz
+Autora: Lola Lorite Díaz :octocat:
 
 Junio 2025
 
@@ -25,63 +25,98 @@ En el ámbito de la experiencia de usuario (UX), el éxito se consigue mostrando
 ### Auditoría de Usabilidad y Experiencia de Usuario
 Para evaluar el portal del Mercado Ecológico Guadalhorce de forma clara y estructurada, he agrupado los hallazgos en cinco dimensiones clave de interacción.
 
-#### 📌 Arquitectura de la Información y Navegación
-* **Observación:** Al acceder a la versión ordenador, se aprecia una interfaz sumamente limpia y clara que carece de un menú desplegable principal o lateral. En su lugar, los epígrafes principales (Inicio, Calendario, Productores, Sobre Nosotros, Hazte Socio) se encuentran en la cabecera del sitio web (*header*), facilitando un acceso inmediato a la información. Sin embargo, en la versión móvil si aparece el menú desplegable (debido a una cuestión de espacio) con los mismos epígrafes. En el inicio de la página podemos observar una frase motivadora y enlaces para hacernos socios y unirnos a la lista de difusión, y justo debajo encontramos la información para los siguientes eventos.
-* **Evaluación UX:** Esta decisión de diseño reduce los pasos necesarios para navegar por la web, además de aprovechar de formaeficiente el espacio superior. No obstante, al no existir una tienda online la página prioriza las llamadas a la acción (CTA) informativas o de registro.
+#### :pushpin: Arquitectura de la Información y Navegación
+* **Observación:** Al acceder a la versión ordenador, se aprecia una interfaz que carece de un menú desplegable principal o lateral. En su lugar, los epígrafes principales (Inicio, Calendario, Productores, Sobre Nosotros, Hazte Socio) se encuentran en el *header*, facilitando los accesos directos. En la versión móvil sí aparece el menú desplegable con los mismos epígrafes. En el inicio podemos observar una frase motivadora y enlaces para hacernos socios y unirnos a la lista de difusión, y justo debajo encontramos la información para los siguientes eventos.
+* **Evaluación UX:** Esta decisión de diseño reduce los pasos necesarios para navegar por la web, ya que el usuario ve todas las opciones sin tener que recordar dónde están. No obstante, al no existir una tienda online, la página prioriza las llamadas a la acción (CTA) informativas o de registro.
 
-#### 📌 Diseño Visual y Estética
-* **Observación:** La página transmite una sensación de orden y claridad gracias al uso inteligente de los espacios en blanco. Se apoya de un carrusel de fotografías del mercado que aportan cercanía y utiliza tonos verdes y tierra ligados al concepto sostenible.
-* **Evaluación UX:** La página destaca por tener un estilo minimalista y limpio. Transmite una sensación de orden gracias al inteligente uso de los espacios en blanco. El aspecto visual de la página transmite los valores ecológicos del proyecto utilizando una paleta de colores muy asociada a la naturaleza y la agricultura.
+#### :pushpin: Diseño y Estética
+* **Observación:** La página hace un uso notable de los espacios en blanco como separador entre bloques de contenido. Se apoya en un carrusel de fotografías del mercado y utiliza tonos verdes y tierra.
+* **Evaluación UX:** El uso del espacio en blanco actúa como separador semántico entre bloques, facilitando la agrupación perceptiva según la ley de proximidad de la Gestalt. La paleta cromática refuerza la asociación con el dominio ecológico de forma coherente.
 
-#### 📌 Accesibilidad Web (a nivel de interfaz)
-* **Observación:** Al pasar la herramienta Lighthouse, el portal muestra fallos de contraste en la relación entre los colores de fondo y los textos principales o secundarios. También detecta que algunos elementos de encabezado (títulos) no siguen un orden secuencial descendente. Aunque se reportan enlaces sin nombres reconocibles en el logotipo de inicio y áreas táctiles reducidas en los pequeños puntos de navegación del carrusel de opiniones, se consideran elementos secundarios que no bloquean la navegación principal.
-* **Evaluación UX:** Los problemas de contraste cromático y el desorden de los encabezados son barreras importantes que incumplen las pautas WCAG (principios Perceptible y Comprensible). Al trasladar esto al Ecomercado UGR, donde el acceso institucional debe ser 100% inclusivo, es obligatorio asegurar que la jerarquía de los títulos sea limpia para que los lectores de pantalla que usan personas ciegas funcionen bien, y que los textos tengan un contraste fuerte sobre el fondo para personas con problemas visuales.
+#### :pushpin: Accesibilidad Web (a nivel de interfaz)
+* **Observación:** Lighthouse detecta fallos de contraste entre los colores de fondo y los textos principales o secundarios. También detecta que algunos encabezados no siguen un orden secuencial descendente. Se reportan además enlaces sin texto reconocible en el logotipo y áreas táctiles reducidas en los puntos de navegación del carrusel.
+* **Evaluación UX:** Los fallos de contraste y el desorden de encabezados incumplen los principios Perceptible y Comprensible de las WCAG. En el EcoMercado UGR, al ser una iniciativa institucional de la UGR, estos criterios son de cumplimiento legal obligatorio.
 
-#### 📌 Adaptabilidad (Responsive)
-* **Observación:** El comportamiento general de la interfaz en dispositivos móviles está muy bien resuelto. Los epígrafes de la cabecera se recogen correctamente en un menú principal desplegable para salvar espacio. Además, los bloques visuales se reorganizan de forma limpia, colocando las imágenes justo debajo de los textos de manera ordenada. Los botones principales también se expanden para ocupar un buen ancho de la pantalla, facilitando que se puedan pulsar de forma cómoda. Sin embargo, se detecta un fallo crítico al acceder a la página de "Hazte Socio": esta sección concreta no ha sido adaptada a formato responsive, manteniendo la misma configuración visual que en la versión de ordenador.
-* **Evaluación UX:** Aunque la landing page cumple con creces el principio *Mobile-First*, la falta de adaptación en la sección de registro rompe por completo la consistencia de la experiencia de usuario. Además, esta sección de registro son simplemente indicaciones de cómo te puedes hacer socio de forma presencial, lo que significa que los usuarios no pueden hacerse socios de forma online. 
+#### :pushpin: Adaptabilidad (Responsive)
+* **Observación:** La interfaz en móvil reorganiza los bloques en columna única, los botones se expanden al ancho de la pantalla y el menú se recoge en un desplegable. Sin embargo, la sección "Hazte Socio" no tiene estilos responsive aplicados, manteniéndose igual que en escritorio.
+* **Evaluación UX:** La landing page sigue el principio Mobile First, pero la falta de adaptación en la sección de registro rompe la coherencia de la experiencia en ese flujo concreto.
 
-#### 📌 Feedback y Gestión del Estado
-* **Observación:** La sección inferior anticipa los "Próximos Mercados" con un aviso claro ("¡No te pierdas el siguiente!"), guiando al usuario hacia lo que va a ocurrir a continuación.
-* **Evaluación UX:** Se cumple la heurística sobre mantener al usuario informado del estado del sistema. En lugar de obligarle a buscar las fechas en menús internos, la página le da la información de manera proactiva, disminuyendo la incertidumbre.
+#### :pushpin: Feedback y Gestión del Estado
+* **Observación:** La sección inferior anticipa los "Próximos Mercados" con un aviso claro, guiando al usuario hacia lo que va a ocurrir a continuación.
+* **Evaluación UX:** Se cumple la heurística sobre mantener al usuario informado del estado del sistema. En lugar de obligarle a buscar las fechas en menús internos, la página le da la información de manera proactiva, reduciendo la incertidumbre.
 
 ---
 
-## **b. Comparación Mercado Ecológico Guadalhorce vs EcoMercado UGR
+## **b. Comparación Mercado Ecológico Guadalhorce vs EcoMercado UGR**
 
 Para fundamentar la propuesta de diseño, es necesario contrastar las soluciones de la plataforma de Guadalhorce con el estado actual del sitio informativo del EcoMercado UGR.
 
-#### 🔍 La Página de Inicio (Home)
-* **Mercado Guadalhorce:** Su intención es directa, con un estilo minimalista. Destaca de inmediato un título claro, dos botones de acción definidos ("Hazte Socio" y "Lista de Difusión") y un carrusel de fotos reales que transmiten frescura y confianza. Publicita los próximos mercados, informa sobre la Asociación Guadalhorce Ecológico y muestra opiniones sobre los clientes. En general, es una página muy completa.
-* **Eco Mercado UGR:** Es una página donde predomina el texto plano sobre lo visual. Falta impacto inmediato; las historias de los productores y los productos apenas tienen protagonismo frente a los bloques de párrafos administrativos.
+#### :bar_chart: La Página de Inicio (Home)
+* **Mercado Guadalhorce:** Título claro, dos CTAs definidos y carrusel de fotos reales. Publica los próximos mercados e incluye testimonios. Aplica la heurística H1 de Nielsen al anticipar la próxima cita sin requerir navegación adicional.
+* **Eco Mercado UGR:** Predomina el texto plano sobre lo visual. La falta de jerarquía visual eleva la carga cognitiva en la primera visita y dificulta identificar rápidamente qué ofrece el sitio.
 
-#### 🔍 Arquitectura de Navegación
-* **Mercado Guadalhorce:** Utiliza una cabecera (*header*) muy limpia con los cinco enlaces esenciales a la vista, evitando menús ocultos en ordenador y guiando al usuario sin rodeos hacia el calendario o los productores.
-* **Eco Mercado UGR:** Presenta una estructura más saturada, con varios menús que mezclan demasiados apartados. Esto eleva la carga cognitiva y hace complicado encontrar información en específico.
+#### :bar_chart: Arquitectura de Navegación
+* **Mercado Guadalhorce:** Cabecera con los cinco enlaces esenciales a la vista, sin menús ocultos en escritorio, reduciendo la profundidad de clic para llegar al calendario o los productores.
+* **Eco Mercado UGR:** Varios menús con demasiados apartados mezclados en el primer nivel, lo que eleva la carga cognitiva y dificulta encontrar información específica.
 
-#### 🔍 Diseño Visual y Jerarquía
-* **Mercado Guadalhorce:** Estética moderna y limpia. Observamos numerosas fotos de eventos anteriores que nos familiarizan con la asociación. Utiliza siempre la misma paleta de colores y usa la misma tipografía para todo, diferenciando los títulos en negrita. Nos recibe con una frase motivadora: "Cada semana cerca de ti".
-* **Eco Mercado UGR:** Su estética es rígida y corporativa. La falta de contrastes visuales fuertes y el exceso de texto provocan que la página resulte monótona y difícil de leer. Incluye fotos, pero únicamente al final y demasiado apiladas, por lo que resultan difíciles de leer.
+#### :bar_chart: Diseño Visual y Jerarquía
+* **Mercado Guadalhorce:** Paleta cromática consistente y títulos diferenciados por peso tipográfico, facilitando el barrido visual. Las fotos de eventos refuerzan la identidad del proyecto.
+* **Eco Mercado UGR:** La alta densidad de texto y la falta de contrastes visuales generan un patrón de lectura poco eficiente. Las imágenes, agrupadas al final y fuera del recorrido visual natural, no cumplen función de anclaje de atención.
 
-#### 🔍 Diagnóstico de Accesibilidad (Lighthouse)
+#### :bar_chart: Diagnóstico de Accesibilidad (Lighthouse)
 * **Mercado Guadalhorce:** Presenta fallos corregibles en el contraste de algunos textos secundarios y pequeños descuidos en el orden secuencial de las etiquetas de encabezado.
 * **Eco Mercado UGR:** Presenta imágenes de noticias sin la etiqueta de texto alternativo (`alt`), enlaces repetidos con el mismo destino o con nombre poco descriptivo y problemas de legibilidad por el tamaño de la tipografía en párrafos densos.
 
-#### 🔍 Comportamiento Responsive y Adaptabilidad
-* **Mercado Guadalhorce:** En pantallas móviles se adapta de forma fluida, recolocando los bloques de texto e imágenes en una sola columna y ampliando el tamaño de los botones para facilitar la pulsación táctil. Su único gran bache es que la sección de socios no tiene un estilo aplicado.
-* **Eco Mercado UGR:** La adaptación móvil es mejorable. Al tener tanto volumen de texto, los párrafos se vuelven eternos en pantallas estrechas y los márgenes laterales se reducen demasiado, provocando que el contenido quede pegado a los bordes.
+#### :bar_chart: Comportamiento Responsive y Adaptabilidad
+* **Mercado Guadalhorce:** Se adapta bien en móvil: columna única, botones amplios y menú recogido. El único fallo es la sección de socios sin estilos responsive
+* **Eco Mercado UGR:** La adaptación móvil presenta déficits que afectan a la legibilidad y la operabilidad en pantallas estrechas. Al tener tanto volumen de texto, los párrafos se vuelven eternos en pantallas estrechas y los márgenes laterales se reducen demasiado, provocando que el contenido quede pegado a los bordes.
 
 ---
 
 ### 📝 Conclusión del Diagnóstico Comparativo
 
-Mientras que el **Mercado Ecológico Guadalhorce** ofrece una experiencia de usuario ágil, visual y con un enfoque muy práctico para enganchar al visitante (gracias a su estética minimalista), la web actual del **Eco Mercado UGR** se comporta como un tablón de anuncios tradicional: informativa, excesivamente densa, poco atractiva visualmente y con carencias de legibilidad en dispositivos móviles.
+Mientras que el Mercado Ecológico Guadalhorce ofrece una experiencia de usuario ágil y visual, con un enfoque orientado a reducir la carga cognitiva del visitante gracias a su arquitectura minimalista y su jerarquía visual clara, la web actual del Eco Mercado UGR presenta una densidad informativa elevada, con carencias de legibilidad en dispositivos móviles y una ausencia de jerarquía visual que dificulta la orientación del usuario en el sitio.
 
-Por lo tanto, nuestra propuesta de diseño para el **Eco Mercado UGR** no debe imitar el modelo corporativo actual. Debe importar la filosofía limpia y directa de Guadalhorce, pero resolviendo sus puntos débiles: garantizando que el 100% de los flujos sean accesibles y responsive, y convirtiendo la plataforma en un espacio dinámico que dé total protagonismo a los agricultores locales y a las alertas de las próximas citas en el campus.
+Por lo tanto, nuestra propuesta de diseño para el Eco Mercado UGR no debe replicar el modelo corporativo actual. Debe importar la filosofía limpia y directa de Guadalhorce, resolviendo además sus puntos débiles: garantizando que el 100% de los flujos sean accesibles y responsive conforme al nivel AA de las WCAG 2.1, y convirtiendo la plataforma en un espacio dinámico que dé protagonismo a los agricultores locales y a las alertas de las próximas citas en el campus.
 
+El resultado de WAVE (Web Accessibility Evaluation Tool) se encuentra en los siguientes enlaces:
+* **[EcoMercado UGR](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/6640d691937f6a3260af14807ee173696a7305e1/wave/El%20Ecomercado%20UGR%20celebra%20una%20nueva%20edici%C3%B3n%20el%2028%20de%20mayo%20con%20produ_%20-%20%5Bimprontagranada.es%5D.png)**
+* **[Mercado Guadalhorce](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/6640d691937f6a3260af14807ee173696a7305e1/wave/Inicio%20-%20Mercado%20Ecol%C3%B3gico%20Guadalhorce%20-%20%5Bguadalhorceecologico.org%5D.png)**
 
 ---
 
+## **c. Propuesta de valor y diseño de Eco Mercado UGR**
+
+Para la representación de la nueva plataforma interactiva del **Eco Mercado UGR**, se ha diseñado una estrategia centrada en el usuario que transforma el actual tablón informativo institucional en una web útil, práctica y accesible para la comunidad universitaria.
+
+### :star: Matriz de Definición Estratégica (UX Strategy)
+
+*   **Meta Principal:** Fomentar e incentivar el consumo responsable, la alimentación saludable y el conocimiento de los productos ecológicos de proximidad dentro del campus de la Universidad de Granada.
+*   **Público Objetivo:** Principalmente alumnado de la UGR, personal docente e investigador, personal de administración y servicios, y ciudadanos granadinos interesados.
+*   **Propuesta de Valor:** Una plataforma web que ofrece información sobre quiénes cultivan los alimentos, qué fechas se celebrará y mapas sobre las ediciones en los campus.
+*   **Funcionalidades Críticas:**
+    *   **Calendario Dinámico:** Agenda interactiva con las próximas citas del ecomercado.
+    *   **Fichas de Productores:** Espacio dedicado a humanizar y conocer la historia de cada agricultor local junto con un enlace que nos lleva a su página.
+    *   **Localizador de Puestos:** Mapa interactivo simplificado del campus correspondiente para ubicar los stands físicos.
+
+---
+
+### :pencil: Requisitos UX
+
+La definición de los requisitos interactivos de nuestra propuesta se basa en los datos objetivos obtenidos tras realizar la auditoría de accesibilidad con la herramienta **WAVE**, cuyos resultados específicos están enlazados en el apartado anterior. 
+
+Los informes de WAVE revelan fallos críticos de accesibilidad en ambas plataformas, siendo la web actual de la UGR la más perjudicada. En base a estos hallazgos, el nuevo diseño del Eco Mercado UGR implementará de manera estricta las siguientes directrices WCAG 2.1 AA para corregir estas deficiencias:
+
+*   **Contraste y Legibilidad:** WAVE reporta múltiples problemas de contraste tipográfico. Nuestra propuesta utilizará una paleta de colores natural (verdes y tierras) pero ajustando estrictamente los ratios cromáticos para garantizar que los textos informativos sean legibles para personas con baja visión.
+*   **Estructura Semántica Sólida:** Ante la inconsistencia detectada en la jerarquía de los títulos de la UGR, el nuevo layout web respetará escrupulosamente el orden de los encabezados (`<h1>`, `<h2>`, `<h3>`), permitiendo que los usuarios que navegan mediante lectores de pantalla puedan escanear la web de forma lógica y fluida.
+*   **Etiquetado Limpio y Descritivo:** Se eliminarán por completo los enlaces sin nombre reconocible o redundantes que detectó WAVE. El logotipo de la cabecera tendrá un atributo `alt` correcto para volver al inicio, y las imágenes de los agricultores incluirán descripciones alternativas.
+*   **Áreas de Interacción Optimizadas (Mobile-First):** Para solucionar las áreas táctiles reducidas observadas en los elementos deslizantes del mercado analizado, todos los componentes interactivos del Eco Mercado UGR poseerán un área de pulsación mínima, facilitando una navegación cómoda y sin errores en dispositivos móviles.
+
+---
+
+## **d. Bocetos Low-Fi**
+
+En el siguiente enlace podemos observar nuestros [bocetos Low-Fi](https://github.com/lolaloritediaz/DIU_TrabajoFinal/tree/ae3c03cc60ba917f976e5c886f8afbbc4372eb42/low-fi)
 
 
 
@@ -91,8 +126,7 @@ Por lo tanto, nuestra propuesta de diseño para el **Eco Mercado UGR** no debe i
 
 
 
+## **e. Autoevaluación crítica y reflexión personal**
+A diferencia de mi práctica de Goiko, que era un sistema transaccional enfocado en la conversión (reservar mesa o pedir comida), este caso me ha permitido analizar el UX institucional e informativo. En sistemas como el EcoMercado UGR, el éxito de la interfaz no se mide en clics de compra, sino en la claridad para comunicar eventos físicos (calendarios) y en la capacidad de conectar al usuario con el productor local.
 
-
-
-## **c.**
-A diferencia de mi práctica de Goiko, que era un sistema transaccional puramente enfocado en la conversión (hacer una reserva de mesa o pedir comida), este caso de estudio me ha permitido explorar el UX institucional e informativo. Me ha hecho ver que, para iniciativas como el Ecomercado UGR, el éxito de la interfaz no se mide en clicks de compra, sino en la claridad para comunicar eventos físicos (calendarios) y en la capacidad de conectar de manera humana al usuario con el productor local.
+Las técnicas aplicadas en Goiko —auditoría heurística, evaluación de accesibilidad con Lighthouse y WAVE, y análisis del flujo de tareas— son directamente transferibles a este caso. Sin embargo, el EcoMercado UGR añade una dimensión que Goiko no requirió: al ser una iniciativa de la UGR está obligada a cumplir el nivel AA de las WCAG 2.1, algo que en una web comercial privada no es un requisito legal sino una buena práctica.
