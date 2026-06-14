@@ -17,8 +17,8 @@ Junio 2025
 ## **[a. Análisis de Mercado Ecológico Guadalhorce](https://guadalhorceecologico.org/)**
 
 Las plataformas dedicadas a la distribución de productos de proximidad persiguen los siguientes objetivos:
-- conectar a los consumidores con el entorno agrícola local
-- concienciar sobre la sostenibilidad ambiental
+- Conectar a los consumidores con el entorno agrícola local.
+- Concienciar sobre la sostenibilidad ambiental.
 
 En el ámbito de la experiencia de usuario (UX), el éxito se consigue mostrando de manera transparente la oferta comercial junto con la identidad de los agricultores, los puntos de recogida y los pasos para realizar la compra.
 
@@ -119,6 +119,8 @@ Los informes de WAVE revelan fallos críticos de accesibilidad en ambas platafor
 En el siguiente enlace podemos observar nuestros [bocetos Low-Fi](https://github.com/lolaloritediaz/DIU_TrabajoFinal/tree/ae3c03cc60ba917f976e5c886f8afbbc4372eb42/low-fi)
 
 En el siguiente enlace podemos ver el [resultado con Figma Make](https://upload-pun-74079912.figma.site/).
+
+--
 
 ## **c. Autoevaluación crítica y reflexión personal**
 A continuación, procedemos a evaluar críticamente la forma en la que se ha aplicado lo aprendido en las prácticas a este caso real del Eco Mercado UGR.
