@@ -85,11 +85,11 @@ El resultado de WAVE (Web Accessibility Evaluation Tool) se encuentra en los sig
 
 ---
 
-## **c. Propuesta de valor y diseño de Eco Mercado UGR**
+### **Propuesta de valor y diseño de Eco Mercado UGR**
 
 Para la representación de la nueva plataforma interactiva del **Eco Mercado UGR**, se ha diseñado una estrategia centrada en el usuario que transforma el actual tablón informativo institucional en una web útil, práctica y accesible para la comunidad universitaria.
 
-### :star: Matriz de Definición Estratégica (UX Strategy)
+#### :star: Matriz de Definición Estratégica (UX Strategy)
 
 *   **Meta Principal:** Fomentar e incentivar el consumo responsable, la alimentación saludable y el conocimiento de los productos ecológicos de proximidad dentro del campus de la Universidad de Granada.
 *   **Público Objetivo:** Principalmente alumnado de la UGR, personal docente e investigador, personal de administración y servicios, y ciudadanos granadinos interesados.
@@ -101,7 +101,7 @@ Para la representación de la nueva plataforma interactiva del **Eco Mercado UGR
 
 ---
 
-### :pencil: Requisitos UX
+#### :pencil: Requisitos UX
 
 La definición de los requisitos interactivos de nuestra propuesta se basa en los datos objetivos obtenidos tras realizar la auditoría de accesibilidad con la herramienta **WAVE**, cuyos resultados específicos están enlazados en el apartado anterior. 
 
@@ -114,19 +114,28 @@ Los informes de WAVE revelan fallos críticos de accesibilidad en ambas platafor
 
 ---
 
-## **d. Bocetos Low-Fi**
+### Bocetos Low-Fi
 
 En el siguiente enlace podemos observar nuestros [bocetos Low-Fi](https://github.com/lolaloritediaz/DIU_TrabajoFinal/tree/ae3c03cc60ba917f976e5c886f8afbbc4372eb42/low-fi)
 
+En el siguiente enlace podemos ver el [resultado con Figma Make](https://upload-pun-74079912.figma.site/).
 
+## **c. Autoevaluación crítica y reflexión personal**
+A continuación, procedemos a evaluar críticamente la forma en la que se ha aplicado lo aprendido en las prácticas a este caso real del Eco Mercado UGR.
 
+| Área UX | Lo trabajado en prácticas | Aplicación en EcoMercado UGR |
+| :--- | :--- | :--- |
+| **Arquitectura de la información** | Rediseño de los flujos de navegación de la web de Goiko (sitemap). | Detectamos un exceso de opciones en el menú del EcoMercado UGR.  Nuestra propuesta divide la información en Calendario, Sobre nosotros y Productores. |
+| **Evaluación heurística** | Uso de Heurio para analizar universidades andaluzas mediante heurísticas de Nielsen. | Lo aplicamos al comparar Guadalhorce y EcoMercado UGR, identificando problemas de carga cognitiva. |
+| **Accesibilidad** | Auditorías con WAVE y Lighthouse en webs de ayuntamientos. | Analizamos el contraste, la estructura de los textos y las etiquetas en ambas plataformas. |
+| **Diseño visual** | Moodboard de exploRun y portfolio neobrutalista. | Propusimos una paleta de verdes y tierras aludiendo a la ecología, y separar la información de los eventos de la información sobre la asociación. |
+| **Diseño responsive** | Detección de problemas visuales en distintos dispositivos. | La web de EcoMercado UGR tiene márgenes insuficientes en el móvil. Por eso, hemos planteado un prototipo responsive que prioriza la experiencia mobile-first. |
+| **Etnografía** | Observación del uso de las máquinas de recarga de tarjetas del metro de Granada. | Como mejora futura, se plantearía realizar entrevistas o *card sorting* con estudiantes de la UGR para validar la arquitectura de información propuesta. |
 
+La web original presenta una arquitectura orientada a la publicación de contenido estático, sin flujos de tarea definidos para el usuario. Es por ello que se ha planteado una propuesta que trata al usuario como un perfil activo con necesidades: no busca leer texto; necesita eficacia, saber los datos básicos (actividades y puestos, ubicación, fecha y hora) cuanto antes. El diseño propuesto elimina la carga cognitiva mediante una alta escaneabilidad.
 
+Se ha reducido la navegación a 4 nodos limpios, aplicando las buenas prácticas de *Guadalhorce*. Siguiendo los criterios de WAVE, el diseño es responsive y mobile-first.
 
+Hubiera sido interesante entrevistar a los usuarios reales del Ecomercado, estudiantes, personal de la UGR e incluso a los propios agricultores para descubrir sus necesidades reales. Tampoco hemos podido desarrollar un prototipo navegable en Figma y evaluarlo mediante SUS, exámenes de navegabilidad y Eye Tracking.
 
-
-
-## **e. Autoevaluación crítica y reflexión personal**
-A diferencia de mi práctica de Goiko, que era un sistema transaccional enfocado en la conversión (reservar mesa o pedir comida), este caso me ha permitido analizar el UX institucional e informativo. En sistemas como el EcoMercado UGR, el éxito de la interfaz no se mide en clics de compra, sino en la claridad para comunicar eventos físicos (calendarios) y en la capacidad de conectar al usuario con el productor local.
-
-Las técnicas aplicadas en Goiko —auditoría heurística, evaluación de accesibilidad con Lighthouse y WAVE, y análisis del flujo de tareas— son directamente transferibles a este caso. Sin embargo, el EcoMercado UGR añade una dimensión que Goiko no requirió: al ser una iniciativa de la UGR está obligada a cumplir el nivel AA de las WCAG 2.1, algo que en una web comercial privada no es un requisito legal sino una buena práctica.
+Con todo esto, este caso ha permitido aplicar de forma integrada las competencias adquiridas en la asignatura, conectando la evaluación heurística, el análisis de accesibilidad y la propuesta de rediseño en un flujo metodológico coherente.
