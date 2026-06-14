@@ -120,7 +120,7 @@ En el siguiente enlace podemos observar nuestros [bocetos Low-Fi](https://github
 
 En el siguiente enlace podemos ver el [resultado con Figma Make](https://upload-pun-74079912.figma.site/).
 
---
+---
 
 ## **c. Autoevaluación crítica y reflexión personal**
 A continuación, procedemos a evaluar críticamente la forma en la que se ha aplicado lo aprendido en las prácticas a este caso real del Eco Mercado UGR.
