@@ -47,7 +47,7 @@ Para evaluar el portal del Mercado Ecológico Guadalhorce de forma clara y estru
 
 ---
 
-## **b. Comparación Mercado Ecológico Guadalhorce vs EcoMercado UGR**
+## b. Comparación Mercado Ecológico Guadalhorce vs EcoMercado UGR
 
 Para fundamentar la propuesta de diseño, es necesario contrastar las soluciones de la plataforma de Guadalhorce con el estado actual del sitio informativo del EcoMercado UGR.
 
@@ -85,7 +85,7 @@ El resultado de WAVE (Web Accessibility Evaluation Tool) se encuentra en los sig
 
 ---
 
-### **Propuesta de valor y diseño de Eco Mercado UGR**
+### Propuesta de valor y diseño de Eco Mercado UGR
 
 Para la representación de la nueva plataforma interactiva del **Eco Mercado UGR**, se ha diseñado una estrategia centrada en el usuario que transforma el actual tablón informativo institucional en una web útil, práctica y accesible para la comunidad universitaria.
 
