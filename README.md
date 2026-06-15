@@ -2,19 +2,107 @@
 
 Autora: Lola Lorite Díaz :octocat:
 
-Junio 2025
+Junio 2026
 
 ---
 
 # PARTE I - MI EXPERIENCIA UX
 
+## 1. Aportaciones en contexto de actividades de clase
 
+### 1.1 Etnografía: Uso de máquinas de recarga de tarjetas de metro
+En este ejercicio de investigación de campo, analizamos las interacciones reales de los usuarios con las máquinas de recarga de tarjetas del Metro de Granada, tomando como muestra física la Estación de Recogidas. A través de esta observación, detectamos deficiencias severas en el diseño de interacción, principalmente fallos en la velocidad de respuesta del lector físico y una interfaz poco intuitiva plagada de reflejos lumínicos sobre la pantalla. 
 
+Determinamos que el verdadero problema no era solo el software, sino el factor contextual: el estrés por la presión de perder el metro disparaba la carga cognitiva del usuario. Los viajeros tardaban más tiempo de la cuenta en operar, lo que provocaba molestas colas y que muchos perdiesen el metro por retrasos ajenos a ellos. 
+
+Como contrapropuesta de valor, propusimos la idea de descentralizar la recarga. En lugar de limitarse a la máquina física, planteamos habilitar un sistema de pago directo mediante tecnología *Contactless* dentro del propio vehículo o en los tornos de acceso. Esto demostró cómo la etnografía permite entender que las decisiones de diseño deben tomarse considerando el entorno y el estado emocional del usuario, y no solo la pantalla.
+
+### 1.2 Moodboard y Landing Page: exploRun
+En la actividad de conceptualización de la aplicación móvil *exploRun* —una plataforma de rutas de running urbano ficticia con integración de datos de rendimiento— participamos activamente en todo el recorrido de diseño, partiendo desde la ideación abstracta hasta la materialización de una propuesta de valor concreta a través del desarrollo de su *moodboard* y su correspondiente *landing page*.
+
+En la fase inicial, construimos un *moodboard* basado en una paleta de colores dinámicos, tipografías deportivas de trazo grueso y recursos fotográficos que buscaban generar en el usuario potencial una respuesta emocional inmediata asociada a la energía, la precisión y la tecnología. 
+
+Tras la evaluación, en la que se valoró positivamente la identidad de marca, el logotipo y la elección tipográfica, se señaló que debíamos pulir el mensaje motivacional y evitar imágenes confusas para transmitir mejor la idea de comunidad y el nexo común de correr. 
+
+Reestructuramos la arquitectura de la información sintetizando los valores clave y solucionamos la ambigüedad visual sustituyendo los recursos abstractos por fotografías nítidas de maratones reales. Esta iteración demostró que los elementos visuales nunca deben ser puramente decorativos, sino que deben actuar como un nexo común coherente con el mensaje de comunidad.
+
+### 1.3 Evaluación heurística de Universidades Andaluzas
+Utilizamos la herramienta especializada *Heurio* para realizar una auditoría de usabilidad exhaustiva sobre el portal web institucional de la Universidad de Jaén. El objetivo era evaluar la interfaz bajo la visión de los principios de diseño web universal.
+
+Durante la inspección, detectamos pantallas severamente saturadas de enlaces, un motor de búsqueda ineficiente, fallos de contraste tipográfico que perjudicaban la lectura y menús de navegación que abrumaban con demasiadas alternativas mezcladas en el primer nivel. 
+
+Tradujimos estos hallazgos a la documentación técnica relacionándolos directamente con el incumplimiento de la **Ley de Hick** (demostrando de qué manera el exceso y la complejidad de las opciones elevan el tiempo de procesamiento y el esfuerzo cognitivo del usuario) y de las heurísticas de Nielsen sobre el control del usuario, la consistencia y la simplicidad estética. 
+
+Esta actividad fue clave en nuestra formación para comprender que las evaluaciones heurísticas son herramientas de diagnóstico fundamentales, capaces de transformar un listado de quejas subjetivas en una propuesta de rediseño sólidamente fundamentada en reglas de diseño universales.
+
+### 1.4 Evaluación de accesibilidad en Ayuntamientos
+Empleamos las herramientas automatizadas *WAVE* y *Lighthouse* para examinar las barreras de accesibilidad presentes en la página web oficial del Ayuntamiento de Málaga.
+
+El análisis reveló deficiencias severas en los ratios de contraste cromático entre texto y fondo, un ecosistema de etiquetas semánticas desorganizado (encabezados sin orden secuencial lógico) y componentes interactivos con áreas de pulsación deficientes. 
+
+Nuestra contribución en esta actividad se centró en evaluar cómo el incumplimiento de las pautas **WCAG 2.1 (Nivel AA)** termina entorpeciendo la navegación autónoma y el acceso a la información pública para usuarios con diversidad funcional, limitaciones visuales o usuarios que dependen de lectores de pantalla.
+
+Esta actividad demostró la importancia del diseño inclusivo; interiorizamos el principio de que la accesibilidad universal nunca debe tratarse como un parche corrector o un añadido estético, sino como un requisito técnico obligatorio desde las primeras fases.
+
+### 1.5 Estudio biométrico con Eye Tracking
+Participamos en un estudio de usabilidad con *Eye Tracking* sobre varias plataformas de comercio electrónico (específicamente tiendas dedicadas al sector de moda y ropa de mujer) para monitorizar científicamente la distribución de la atención de los sujetos.
+
+Nuestro trabajo consistió en delimitar geométricamente las Áreas de Interés y los **POIs (Puntos de Interés)** en el software de seguimiento (como las tarjetas de producto, botones de compra y zonas de precio) para valorar si su peso visual era el adecuado. Al analizar los mapas de calor resultantes, pudimos comprobar cuantitativamente qué partes de la pantalla captaban la atención de forma inmediata y cuáles pasaban desapercibidas por completo, identificando el fenómeno de *banner blindness* debido al ruido visual de fondo. 
+
+Experimentar de forma directa con estos mapas de fijaciones nos permitió validar de forma empírica conceptos clave como la jerarquía visual, la carga cognitiva y la **Ley de Fitts**. La gran conclusión de este estudio fue aprender que las decisiones de diseño no pueden depender de la intuición del diseñador, sino que deben validarse mediante datos objetivos extraídos del comportamiento de usuarios reales.
+
+### 1.6 Portafolio Neobrutalista en FigmaMake
+Realizamos el diseño interactivo de un porfolio personal adoptando las pautas de la corriente estética del *Neo-Brutalism* en la plataforma Figma y FigmaMake. El layout se caracterizó por la presencia de colores de alto contraste, bordes negros gruesos, tipografías monoespaciadas, asimetrías y sombras rígidas sin difuminar.
+
+Nuestro trabajo se centró en resolver el conflicto latente entre la disrupción artística y la usabilidad del sitio. Estructuramos el sistema garantizando la consistencia global, la jerarquía visual de los proyectos y el desarrollo de microinteracciones precisas que ofrecieran un *feedback* inmediato al usuario durante la navegación. 
+
+Este ejercicio fue una excelente lección práctica sobre el control de la carga cognitiva: comprendimos que las animaciones y las decisiones visuales arriesgadas deben sumar valor a la experiencia de usuario y facilitar la comprensión del portafolio, evitando convertirse en una fuente de distracción que entorpezca el objetivo principal del producto.
+
+---
+
+## 2. Aportaciones destacadas de las prácticas
+
+Nuestro **caso práctico** es el Rediseño UX para Goiko (Crea Sabores con Encanto)
+
+A lo largo de las prácticas del curso trabajamos en el rediseño UX completo de la plataforma de Goiko, enfocándonos en optimizar la experiencia gastronómica tradicional e introduciendo una propuesta de valor interactiva: el concurso "Crea Sabores con Encanto" para diseñar la hamburguesa ideal.
+
+### Práctica 1: User & Desk Research y Análisis Contextual
+Aplicamos un enfoque metodológico de investigación y evaluación comparativa:
+* **Análisis Competitivo:** Contrastamos Goiko con competidores, detectando problemas de accesibilidad, canales de contacto ocultos y menús de navegación poco visibles.
+* **Modelado de Arquetipos:** Creamos dos personas ficticias junto con sus respectivos *User Journey Maps*.
+* **Usability Review:** Evaluamos el sitio original obteniendo una puntuación de 74/100. Encontramos problemas de retorno a la home, falta de visibilidad en la ayuda y barreras de acceso a la carta para usuarios novatos.
+
+### Práctica 2: Ideación y Estructura de la Experiencia
+Definimos el alcance interactivo, las funcionalidades críticas y la arquitectura de la información de la nueva plataforma:
+* **Estrategia:** Utilizamos un *Feedback Capture Grid* y *Scope Canvas* para enfocar las mejoras en accesibilidad, el filtrado intuitivo de alérgenos y las bases del concurso.
+* **User Flows y Matrices:** Modelamos flujos de tareas específicos a través de una *User Task Matrix* diferenciando las necesidades de clientes frecuentes, usuarios nuevos y perfiles con allergies alimentarias.
+* **Sitemap y Wireframes:** Reestructuramos la jerarquía del sitio en un *Sitemap* limpio y diseñamos los Wireframes en formato portátil para la personalización de ingredientes en el configurador de hamburguesas del concurso.
+
+### Práctica 3: Diseño Visual y Prototipado (Mockups)
+Trasladamos la propuesta a una interfaz de alta fidelidad aplicando una estética premium:
+* **Guidelines y Moodboard:** Diseñamos un *Moodboard* y definimos un estilo moderno de estética oscura basado en el color negro de fondo con rojo intenso para los CTA y tipografías condensadas.
+* **Componentes UI:** Creamos componentes reutilizables y layouts con abundante espacio en blanco que evitan la sobrecarga cognitiva según las leyes de la Gestalt (proximidad y simetría), garantizando la máxima escaneabilidad de la interfaz.
+
+### Práctica 4 y 5: Pruebas de Evaluación, Validación y Documentación Técnica
+Sometimos nuestro prototipo de Goiko (Caso A) a una evaluación cruzada frente al proyecto de nuestros compañeros (Caso B - Anime Ramen) mediante pruebas con 10 usuarios reales bajo un modelo entre-sujetos.
+* **Validación Cuantitativa y Biométrica:** Procesamos las métricas percibidas mediante formularios normalizados en la suite *SUS Analysis Toolkit*. Nuestro diseño alcanzó una puntuación media de **88.0/100 (Clasificación A / Excelente)**, superando al Caso B por 7 puntos debido a nuestra mejor jerarquía visual y limpieza en los CTA, datos ratificados mediante mapas de calor de *Eye Tracking*.
+* **Maquetación y Storybook:** Tradujimos el sistema de diseño a código funcional mediante componentes modulares en **React** (layouts adaptativos y responsive design) y aislamos los elementos de la interfaz documentando sus estados de forma atómica en **Storybook**, garantizando la escalabilidad del software.
+
+---
+
+## 3. (Auto)valoración de las competencias UX adquiridas
+
+Tras completar el transcurso por la asignatura, siento que he evolucionado al transformar la base teórica en habilidades prácticas aplicables a productos digitales reales. Considero que mi nivel actual en el ámbito de la usabilidad y la experiencia de usuario actualmente es avanzado o muy sólido, destacando especialmente en las siguientes áreas de competencia:
+
+* **Modelado y empatía con el usuario:** Habilidad para coordinar fases de análisis y observación, y traducir los problemas detectados en perfiles reales y mapas de viaje que reflejen sus necesidades.
+* **Inspección técnica y científica de interfaces:** Capacidad para examinar interfaces de forma objetiva, detectando fallos de usabilidad y justificando las mejoras mediante las heurísticas de Nielsen y leyes UX.
+* **Arquitectura y maduración del diseño:** Destreza para estructurar la información desde los primeros bocetos abstractos en papel hasta convertirlos en componentes interactivos y prototipos de alta fidelidad.
+* **Validación empírica y pruebas de usabilidad:** Experiencia contrastando diseños mediante test de usuarios cruzados, recopilación de métricas de satisfacción en cuestionarios y análisis de comportamiento visual con herramientas biométricas como Eye Tracking.
 
 ---
 
 # PARTE II - CASO DE ESTUDIO: Propuesta de diseño ECO MERCADO UGR
-## **[a. Análisis de Mercado Ecológico Guadalhorce](https://guadalhorceecologico.org/)**
+## a. Análisis de [Mercado Ecológico Guadalhorce](https://guadalhorceecologico.org/)
 
 Las plataformas dedicadas a la distribución de productos de proximidad persiguen los siguientes objetivos:
 - Conectar a los consumidores con el entorno agrícola local.
