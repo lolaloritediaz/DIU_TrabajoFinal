@@ -206,7 +206,11 @@ Los informes de WAVE revelan fallos críticos de accesibilidad en ambas platafor
 
 En el siguiente enlace podemos observar nuestros [bocetos Low-Fi](https://github.com/lolaloritediaz/DIU_TrabajoFinal/tree/ae3c03cc60ba917f976e5c886f8afbbc4372eb42/low-fi)
 
-En el siguiente enlace podemos ver el [resultado con Figma Make](https://upload-pun-74079912.figma.site/).
+En el siguiente enlace podemos ver el resultado con Figma Make 
+* [Para ordenador](https://upload-pun-74079912.figma.site/).
+* [Para móviles](https://curse-large-92957783.figma.site/).
+>>> La IA de Figma me ha dado muchos problemas, y no me dejaba hacer el diseño responsive en la misma conversación debido a los créditos de IA.
+
 
 ---
 
