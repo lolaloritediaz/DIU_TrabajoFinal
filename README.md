@@ -52,7 +52,7 @@ Nuestro trabajo consistió en delimitar geométricamente las Áreas de Interés 
 Experimentar de forma directa con estos mapas de fijaciones nos permitió validar de forma empírica conceptos clave como la jerarquía visual, la carga cognitiva y la **Ley de Fitts**. La gran conclusión de este estudio fue aprender que las decisiones de diseño no pueden depender de la intuición del diseñador, sino que deben validarse mediante datos objetivos extraídos del comportamiento de usuarios reales.
 
 ### 1.6 Portafolio Neobrutalista en FigmaMake
-Realizamos el diseño interactivo de un porfolio personal adoptando las pautas de la corriente estética del *Neo-Brutalism* en la plataforma Figma y FigmaMake. El layout se caracterizó por la presencia de colores de alto contraste, bordes negros gruesos, tipografías monoespaciadas, asimetrías y sombras rígidas sin difuminar.
+Realizamos el diseño interactivo de un portafolio personal adoptando las pautas de la corriente estética del *Neo-Brutalism* en la plataforma Figma y FigmaMake. El *layout* se caracterizó por la presencia de colores de alto contraste, bordes negros gruesos, tipografías monoespaciadas, asimetrías y sombras rígidas sin difuminar.
 
 Nuestro trabajo se centró en resolver el conflicto latente entre la disrupción artística y la usabilidad del sitio. Estructuramos el sistema garantizando la consistencia global, la jerarquía visual de los proyectos y el desarrollo de microinteracciones precisas que ofrecieran un *feedback* inmediato al usuario durante la navegación. 
 
@@ -75,18 +75,18 @@ Aplicamos un enfoque metodológico de investigación y evaluación comparativa:
 ### Práctica 2: Ideación y Estructura de la Experiencia
 Definimos el alcance interactivo, las funcionalidades críticas y la arquitectura de la información de la nueva plataforma:
 * **Estrategia:** Utilizamos un *Feedback Capture Grid* y *Scope Canvas* para enfocar las mejoras en accesibilidad, el filtrado intuitivo de alérgenos y las bases del concurso.
-* **User Flows y Matrices:** Modelamos flujos de tareas específicos a través de una *User Task Matrix* diferenciando las necesidades de clientes frecuentes, usuarios nuevos y perfiles con allergies alimentarias.
+* **User Flows y Matrices:** Modelamos flujos de tareas específicos a través de una *User Task Matrix* diferenciando las necesidades de clientes frecuentes, usuarios nuevos y perfiles con alergias alimentarias.
 * **Sitemap y Wireframes:** Reestructuramos la jerarquía del sitio en un *Sitemap* limpio y diseñamos los Wireframes en formato portátil para la personalización de ingredientes en el configurador de hamburguesas del concurso.
 
 ### Práctica 3: Diseño Visual y Prototipado (Mockups)
 Trasladamos la propuesta a una interfaz de alta fidelidad aplicando una estética premium:
 * **Guidelines y Moodboard:** Diseñamos un *Moodboard* y definimos un estilo moderno de estética oscura basado en el color negro de fondo con rojo intenso para los CTA y tipografías condensadas.
-* **Componentes UI:** Creamos componentes reutilizables y layouts con abundante espacio en blanco que evitan la sobrecarga cognitiva según las leyes de la Gestalt (proximidad y simetría), garantizando la máxima escaneabilidad de la interfaz.
+* **Componentes UI:** Creamos componentes reutilizables y *layouts* con abundante espacio en blanco que evitan la sobrecarga cognitiva según las leyes de la Gestalt (proximidad y simetría), garantizando la máxima escaneabilidad de la interfaz.
 
 ### Práctica 4 y 5: Pruebas de Evaluación, Validación y Documentación Técnica
 Sometimos nuestro prototipo de Goiko (Caso A) a una evaluación cruzada frente al proyecto de nuestros compañeros (Caso B - Anime Ramen) mediante pruebas con 10 usuarios reales bajo un modelo entre-sujetos.
 * **Validación Cuantitativa y Biométrica:** Procesamos las métricas percibidas mediante formularios normalizados en la suite *SUS Analysis Toolkit*. Nuestro diseño alcanzó una puntuación media de **88.0/100 (Clasificación A / Excelente)**, superando al Caso B por 7 puntos debido a nuestra mejor jerarquía visual y limpieza en los CTA, datos ratificados mediante mapas de calor de *Eye Tracking*.
-* **Maquetación y Storybook:** Tradujimos el sistema de diseño a código funcional mediante componentes modulares en **React** (layouts adaptativos y responsive design) y aislamos los elementos de la interfaz documentando sus estados de forma atómica en **Storybook**, garantizando la escalabilidad del software.
+* **Maquetación y Storybook:** Tradujimos el sistema de diseño a código funcional mediante componentes modulares en **React** (*layouts* adaptativos y responsive design) y aislamos los elementos de la interfaz documentando sus estados de forma atómica en **Storybook**, garantizando la escalabilidad del software.
 
 ---
 
@@ -196,9 +196,9 @@ La definición de los requisitos interactivos de nuestra propuesta se basa en lo
 Los informes de WAVE revelan fallos críticos de accesibilidad en ambas plataformas, siendo la web actual de la UGR la más perjudicada. En base a estos hallazgos, el nuevo diseño del Eco Mercado UGR implementará de manera estricta las siguientes directrices WCAG 2.1 AA para corregir estas deficiencias:
 
 *   **Contraste y Legibilidad:** WAVE reporta múltiples problemas de contraste tipográfico. Nuestra propuesta utilizará una paleta de colores natural (verdes y tierras) pero ajustando estrictamente los ratios cromáticos para garantizar que los textos informativos sean legibles para personas con baja visión.
-*   **Estructura Semántica Sólida:** Ante la inconsistencia detectada en la jerarquía de los títulos de la UGR, el nuevo layout web respetará escrupulosamente el orden de los encabezados (`<h1>`, `<h2>`, `<h3>`), permitiendo que los usuarios que navegan mediante lectores de pantalla puedan escanear la web de forma lógica y fluida.
-*   **Etiquetado Limpio y Descritivo:** Se eliminarán por completo los enlaces sin nombre reconocible o redundantes que detectó WAVE. El logotipo de la cabecera tendrá un atributo `alt` correcto para volver al inicio, y las imágenes de los agricultores incluirán descripciones alternativas.
-*   **Áreas de Interacción Optimizadas (Mobile-First):** Para solucionar las áreas táctiles reducidas observadas en los elementos deslizantes del mercado analizado, todos los componentes interactivos del Eco Mercado UGR poseerán un área de pulsación mínima, facilitando una navegación cómoda y sin errores en dispositivos móviles.
+*   **Estructura Semántica Sólida:** Ante la inconsistencia detectada en la jerarquía de los títulos de la UGR, el nuevo *layout* web respetará escrupulosamente el orden de los encabezados (`<h1>`, `<h2>`, `<h3>`), permitiendo que los usuarios que navegan mediante lectores de pantalla puedan escanear la web de forma lógica y fluida.
+*   **Etiquetado Limpio y Descriptivo:** Se eliminarán por completo los enlaces sin nombre reconocible o redundantes que detectó WAVE. El logotipo de la cabecera tendrá un atributo `alt` correcto para volver al inicio, y las imágenes de los agricultores incluirán descripciones alternativas.
+*   **Áreas de Interacción Optimizadas (Mobile-First):** Para solucionar las áreas táctiles reducidas observadas en los elementos deslizantes del mercado analizado, todos los componentes interactivos del Eco Mercado UGR poseerán un área de pulsación mínima de 48x48 (criterio WCAG 2.5.5), facilitando una navegación cómoda y sin errores en dispositivos móviles.
 
 ---
 
