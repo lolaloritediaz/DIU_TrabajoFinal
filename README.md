@@ -204,7 +204,12 @@ Los informes de WAVE revelan fallos críticos de accesibilidad en ambas platafor
 
 ### Bocetos Low-Fi
 
-En el siguiente enlace podemos observar nuestros [bocetos Low-Fi](https://github.com/lolaloritediaz/DIU_TrabajoFinal/tree/ae3c03cc60ba917f976e5c886f8afbbc4372eb42/low-fi)
+En el siguiente enlace podemos observar nuestros [bocetos Low-Fi](https://github.com/lolaloritediaz/DIU_TrabajoFinal/tree/ae3c03cc60ba917f976e5c886f8afbbc4372eb42/low-fi):
+| Diseño | Home Page | Calendario | Productores | Sobre nosotros | Evento | 
+| :---|:---:|:---:|:---:|:---:|:---:|
+| **Ordenador** | ![Home Page](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/e52aa2f4e4625e424ec19a828a2e591773be290d/low-fi/Home%20Page.png) | ![Calendario](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/e52aa2f4e4625e424ec19a828a2e591773be290d/low-fi/Calendario.png) | ![Productores](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/e52aa2f4e4625e424ec19a828a2e591773be290d/low-fi/Productores.png)  | ![Sobre nosotros](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/d697bd136a00ba3ff34c0730d45bc1ffa96e20c1/low-fi/Sobre%20nosotros.png) | ![Evento](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/d697bd136a00ba3ff34c0730d45bc1ffa96e20c1/low-fi/Evento.png) |
+| **Móvil** | ![Home Page](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/d697bd136a00ba3ff34c0730d45bc1ffa96e20c1/low-fi/movil/Home%20Page%20m%C3%B3vil.png) | ![Calendario](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/d697bd136a00ba3ff34c0730d45bc1ffa96e20c1/low-fi/movil/Calendario%20m%C3%B3vil.png) | ![Productores](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/d697bd136a00ba3ff34c0730d45bc1ffa96e20c1/low-fi/movil/Productores%20m%C3%B3vil.png)  | ![Sobre nosotros](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/d697bd136a00ba3ff34c0730d45bc1ffa96e20c1/low-fi/movil/Sobre%20nosotros%20m%C3%B3vil.png) | ![Evento](https://github.com/lolaloritediaz/DIU_TrabajoFinal/blob/d697bd136a00ba3ff34c0730d45bc1ffa96e20c1/low-fi/movil/Evento%20m%C3%B3vil.png) |
+
 
 En el siguiente enlace podemos ver el resultado con Figma Make 
 * [Para ordenador](https://upload-pun-74079912.figma.site/).
